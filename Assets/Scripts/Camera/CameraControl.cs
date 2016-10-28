@@ -5,7 +5,7 @@ public class CameraControl : MonoBehaviour
     public float m_DampTime = 0.2f; // time spent for camera to go to the position we want to go              
     public float m_ScreenEdgeBuffer = 4f; //the numbers we'd like to add to make sure that the cameras aren't at the edge of the screen.         
 	public float m_MinSize = 6.5f; // The smallest orthographic size the camera can be.                 
-    /*[HideInInspector]*/ public Transform[] m_Targets; //tanks = targets. Game managers gonna set the targets
+ 	[HideInInspector] public Transform[] m_Targets; //tanks = targets. Game managers gonna set the targets
 	//so we don't want it to show in the inspector.
 
 
